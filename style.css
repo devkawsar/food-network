@@ -24,6 +24,11 @@ header {
 	display: flex;
 }
 
+header p {
+	font-size: 1.5rem;
+	letter-spacing: 1px;
+}
+
 .nav {
 	overflow: hidden;
 	background-color: #333;
@@ -54,7 +59,7 @@ nav ul {
 	display: flex;
 	width: 50%;
 	justify-content: center;
-	align-items: center;
+	align-items: start;
 	flex-direction: column;
 }
 
@@ -62,15 +67,16 @@ nav ul {
 	width: 80%;
 }
 
-.link-btn {
+button {
 	text-decoration: none;
 	background: red;
-	padding: 10px 40px;
+	padding: 10px 30px;
+	border-radius: 30px;
 	color: #fff;
 	font-size: 1.5rem;
 	font-weight: 700;
 	margin-top: 20px;
-	display: inline-block;
+	display: block;
 }
 
 section.about {
@@ -80,10 +86,6 @@ section.about {
 	display: flex;
 }
 
-.about-img {
-	border-radius: 50%;
-}
-
 .about-text {
 	display: flex;
 	flex-direction: column;
@@ -91,7 +93,6 @@ section.about {
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-	border: 1px solid red;
 	padding: 50px;
 }
 
@@ -108,8 +109,8 @@ section.about {
 }
 
 .recipe {
-	border: 5px solid red;
 	height: 700px;
+	margin-bottom: 100px;
 }
 
 .recipe-text {
