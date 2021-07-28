@@ -47,3 +47,7 @@ section.about {
 section.recipe {
 	height: 100vh;
 }
+
+.recipe-cards {
+	display: inline-block;
+}
