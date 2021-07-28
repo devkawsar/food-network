@@ -1,0 +1,49 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+}
+html {
+	font-size: 62.5%;
+}
+
+header {
+	height: 100vh;
+}
+
+h1 {
+	font-size: 5rem;
+}
+
+.half-width {
+	width: 50%;
+	float: left;
+	padding-left: 10%;
+}
+
+.half-width img {
+	width: 80%;
+}
+
+.link-btn {
+	text-decoration: none;
+	background: red;
+	padding: 10px 40px;
+	color: #fff;
+	font-size: 1.5rem;
+	font-weight: 700;
+	margin-top: 20px;
+	display: inline-block;
+}
+
+section.about {
+	background-image: url(./images/shapes/7.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+
+section.recipe {
+	height: 100vh;
+}
