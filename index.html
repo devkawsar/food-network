@@ -11,9 +11,19 @@
 			href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
 			rel="stylesheet"
 		/>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link rel="stylesheet" href="style.css" />
 	</head>
 	<body>
+		<nav class="nav">
+			<a href="https://www.google.com/"><h1>Food Network</h1></a>
+			<ul>
+				<li><a class="active" href="#home">Home</a></li>
+				<li><a href="#news">News</a></li>
+				<li><a href="#contact">Contact</a></li>
+				<li><a href="#about">About</a></li>
+			</ul>
+		</nav>
 		<header>
 			<div class="half-width">
 				<h1>
@@ -31,15 +41,22 @@
 				<img src="./images/female/eat-healthy-food-png-transparent-eat-healthy-foodpng-images-woman-eating-png-480_319-removebg-preview.png" alt="" />
 			</div>
 		</header>
+		<section class="icon-bar">
+				<a href="#" class="facebook"><i class="fa fa-facebook"></i></a> 
+				<a href="#" class="twitter"><i class="fa fa-twitter"></i></a> 
+				<a href="#" class="google"><i class="fa fa-google"></i></a> 
+				<a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+				<a href="#" class="youtube"><i class="fa fa-youtube"></i></a> 
+		</section>
 		<section class="about">
 			<div class="half-width">
-				<img src="./images/female/6667872_preview-removebg-preview.png" alt="" />
+				<img class="about-img" src="./images/female/6667872_preview-removebg-preview.png" alt="" />
 			</div>
-			<div class="half-width">
-				<h1>About Me</h1>
+			<div class="half-width about-text">
+				<h3>About Me</h3>
 				<p>
 					Hey I'm Kawsar Ahmed, a front-end developer. I make professional
-					websites for my international clients.
+				websites for my international clients. I'm very dedicated to my work. I'm specializing in react and javascript.
 				</p>
 				<button>Hire Me</button>
 			</div>
@@ -52,42 +69,45 @@
 					molestiae laudantium earum quasi? Vel, soluta.
 				</p>
 			</div>
-			<div class="recipe-cards">
-				<div class="card">
-					<img src="" alt="" />
-					<h3>recipe title</h3>
-					<p>
-						Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias,
-						aliquam.
-					</p>
+			<div class="cards">
+					<div class="card">
+						<img src="./images/food/Project Cover6.png" alt="" />
+					<div class="card-body">
+						<h3>Recipe Title</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, hic quam? Saepe esse cum inventore?</p>
+					</div>
+					</div>
+					<div class="card">
+						<img src="./images/food/Project Cover6.png" alt="" />
+					<div class="card-body">
+						<h3>Recipe Title</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, hic quam? Saepe esse cum inventore?</p>
+					</div>
+					</div>
+					<div class="card">
+						<img src="./images/food/Project Cover6.png" alt="" />
+					<div class="card-body">
+						<h3>Recipe Title</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, hic quam? Saepe esse cum inventore?</p>
+					</div>
+					</div>
 				</div>
-				<div class="card">
-					<img src="" alt="" />
-					<h3>recipe title</h3>
-					<p>
-						Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias,
-						aliquam.
-					</p>
-				</div>
-				<div class="card">
-					<img src="" alt="" />
-					<h3>recipe title</h3>
-					<p>
-						Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias,
-						aliquam.
-					</p>
-				</div>
+				
+				
 			</div>
 		</section>
-		<section class="social-media-section">
+		<section class="social-media">
 			<div>
 				<h3>700k</h3>
+				<p>Youtube Subscribers</p>
 			</div>
 			<div>
 				<h3>2.4m</h3>
+				<p>Instagram followers</p>
 			</div>
 			<div>
 				<h3>100k</h3>
+				<p>Dribble short likes</p>
 			</div>
 		</section>
 		<footer>
